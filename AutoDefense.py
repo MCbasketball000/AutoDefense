@@ -20,7 +20,7 @@ def get_x(pos):
 
 def get_y(pos):
     temp_list = pos.split()
-    return int(temp_list[1]) * 110 + 40
+    return int(temp_list[1]) * 110 + 90
 
 
 land_list = []
@@ -30,6 +30,7 @@ army = input("每次进攻兵力：")
 for i in range(num):
     land_list.append(input("输入地块，坐标之间空格分隔："))
 print("按P键来控制开始/停止")
+print("请确保您的休闲成神处于全屏状态，并且处于帮会战争页面")
 
 while True:
     time.sleep(0.05) 
